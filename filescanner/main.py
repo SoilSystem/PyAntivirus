@@ -1,5 +1,5 @@
 import os
-path = r'C:'
+path = os.path.abspath('.').split(os.path.sep)[0]+os.path.sep
 res = ''
 #path =r'C:\Users\Gaetano\Downloads'
 while res != 'y' and res != 'Y' and res != 'n' and res != 'N':
